@@ -1,0 +1,33 @@
+////
+/// This is a poster comment.
+/// It will apply annotations to all items from file.
+/// @group example-api
+/// @author John Doe
+////
+
+//  @function example()
+/// This is a description of what the example function does.
+///
+/// @param {String} $foo A string parameter.
+/// @returns {String} The returned string.
+/// 
+/// @example scss - Return value of 'foo'.
+///   $bar: example(foo)
+///   // foo
+
+@function example($foo) {
+  @return $foo;
+}
+
+//  @mixin example()
+/// This is a description of what the example mixin does.
+///
+/// @param {String} $foo A string parameter.
+///
+/// @example scss - Output value of 'foo'.
+///   @include example(foo)
+///   // font-size: foo;
+
+@mixin example($foo) {
+  font-size: example($foo);
+}
