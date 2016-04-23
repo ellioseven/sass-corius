@@ -57,6 +57,10 @@ Build Library (Compile + Lint + Test + Document):
 gulp build
 ```
 
+## Yeoman Generator
+
+To make life easier, try the [Corius Yeoman Generator](https://github.com/ellioseven/generator-sass-corius).
+
 ## Further Reading
 
 ### Libsass
