@@ -63,13 +63,13 @@ To make life easier, try the [Corius Yeoman Generator](https://github.com/ellios
 
 ## Further Reading
 
-### Libsass
+### LibSass
 
-In case you haven't heard, Libsass is a C implementation of Sass. This creates
+In case you haven't heard, LibSass is a C implementation of Sass. This creates
 a portable codebase which is a lot faster than the original Ruby source. You
-can [read more about Libsass](http://sass-lang.com/libsass]).
+can [read more about LibSass](http://sass-lang.com/libsass]).
 
-To implement Libsass, we have to use a wrapper. In this case, we are using the
+To implement LibSass, we have to use a wrapper. In this case, we are using the
 Node wrapper, [node-sass](https://github.com/sass/node-sass).
 
 Run `gulp` to watch your Sass for changes and compile or `gulp sass` to
