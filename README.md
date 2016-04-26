@@ -97,7 +97,7 @@ rules. Linting helps you and your team to write consistent code. This helps
 keep a nice readable codebase that can actually be maintained.
 
 It's a good idea to consistently lint your code at all times, not right at
-the end. Use [gulp-sass-link](https://github.com/sasstools/gulp-sass-lint) to
+the end. Use [gulp-sass-lint](https://github.com/sasstools/gulp-sass-lint) to
 automate linting. This is done in the default watch task (when you run `gulp`
 in the terminal) or on the `lint` task (wehn you run `gulp lint` in the terminal). 
 
