@@ -27,7 +27,7 @@ gulp.task('default', function () {
 gulp.task('build', ['sass', 'lint', 'test', 'doc']);
 
 gulp.task('sass', function () {
-  return gulp.src('index.scss')
+  return gulp.src('build.scss')
     .pipe(sass().on('error', sass.logError));
 });
 
